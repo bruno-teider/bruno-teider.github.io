@@ -1,0 +1,61 @@
+/* Seta Legal */
+.arrow {
+    position: absolute;
+    top: 12%;
+    margin-left: 5%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: transparent;
+    border-top: .4rem solid #2bd9d0;
+    border-right: .4rem solid #2bd9d0;
+    box-shadow: 0 0 0 lightgray;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .arrow.left {
+    left: 0;
+    -webkit-transform: translate3d(0, -50%, 0) rotate(-135deg);
+            transform: translate3d(0, -50%, 0) rotate(-135deg);
+  }
+  .arrow:hover {
+    border-top: .4rem solid #DE7C64;
+    border-right: .4rem solid #DE7C64;
+    box-shadow: .2rem -.2rem 0 #2bd9d0;
+  }
+  .arrow:hover.left {
+    left: -.2rem;
+  }
+  .arrow:hover.right {
+    right: -.2rem;
+  }
+  
+.titulo{
+  font-size: 300%;
+  color: #DE7C64;
+  font-family:helvetica;
+  float: right;
+  margin-right: 5%;
+  margin-top: -6%; 
+}
+
+.caixa_texto{
+  margin-top: 15%;
+  margin-left: 65%;
+  width: 30%;
+  height: 55%;
+
+}
+
+.caixa_texto h1{
+  font-size: 175%;
+  color: #2bd9d0;
+  font-family:helvetica;
+  line-height: 45px;
+}
+
+.gif{
+  margin-top: -33%;
+  margin-left: 5%;
+  width: 56%;
+
+}

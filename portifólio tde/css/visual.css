@@ -1,0 +1,64 @@
+.titulo{
+    font-size: 400%;
+    color: #2bd9d0;
+    font-family:helvetica;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.welcome{
+    font-size: 250%;
+    color: #2bd9d0;
+    font-family:helvetica;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+/* Meu nome ali no canto */
+.name{
+    font-size: 300%;
+    color: #DE7C64;
+    font-family:helvetica;
+    float: right;
+    margin-right: 5%; /* com imagem -23% */
+    margin-top: 32%; 
+}
+
+.name:hover span{
+    display: none
+}
+
+.name:hover:before{
+    content: 'linkedin';
+    color: #DE7C64;
+}
+
+.hyperlink{
+    text-decoration: none;
+}
+
+.centralizacao{
+    margin: auto;
+}
+
+/* Projetos */
+.projects{
+    font-size: 350%;
+    color: #2bd9d0;
+    font-family:helvetica;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+.search{
+    font-size: 250%;
+    color: #2bd9d0;
+    font-family:helvetica;
+    margin-left: 7%;
+    margin-top: -1%;
+}
+
+.search:hover{
+    color: #70DFDA;
+    margin-left: 9%;
+}
